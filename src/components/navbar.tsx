@@ -20,22 +20,6 @@ export function NavBar() {
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
             <Link
-              href="https://discord.gg/7xgc3A8Nyp"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={buttonVariants({
-                  size: "sm",
-                  variant: "ghost",
-                  className: "text-zinc-700 dark:text-zinc-400",
-                })}
-              >
-                <Discord className="h-5 w-5" /> {/* Use DiscordIcon directly */}
-                <span className="sr-only">Discord</span>
-              </div>
-            </Link>
-            <Link
               href="https://twitter.com/atl5d"
               target="_blank"
               rel="noreferrer"
