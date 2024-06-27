@@ -20,10 +20,10 @@ export default function SetupPage({ searchParams: { channel } }: PageProps) {
       <div className="w-full border-t" />
       <div className="max-w-[728px]">
         <h1 className="text-xl font-medium mb-4">
-          Streaming with OBS + LiveKit Ingress
+          Streaming with OBS + ATL5D Ingress
         </h1>
         <p>
-          After setting up your ingress endpoint, you should receive two values:
+          After setting up your ATL5D ingress endpoint, you should receive two values:
           a RTMP or WHIP server URL and a stream key. Download and install{" "}
           <Link
             href="https://obsproject.com/"
@@ -39,7 +39,7 @@ export default function SetupPage({ searchParams: { channel } }: PageProps) {
           width={1200}
           height={600}
           alt="OBS Studio settings window"
-          src="https://user-images.githubusercontent.com/304392/225103865-c0c3accb-600f-411d-814e-8f6384784b62.png"
+          src="https://atl5d.shop/wp-content/uploads/2024/06/LIVE-atl5d.shop_.png"
         />
         <p>
           When you&rsquo;re done with setting up your stream and ready to
