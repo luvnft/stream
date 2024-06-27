@@ -1,7 +1,7 @@
 import { ModeToggle } from "@/components/theme-toggle";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
-import { Icons, Discord } from '../components/ui/icons'; // Correct import
+import { Icons } from '../components/ui/icons'; // Correct import
 
 export function NavBar() {
   return (
