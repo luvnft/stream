@@ -8,17 +8,17 @@ export function NavBar() {
     <header className="sticky top-0 z-40 w-full border-b  bg-background px-4 ">
       <div className="mx-auto flex h-12 items-center space-x-4 sm:justify-between sm:space-x-0">
         <div className="flex gap-6 md:gap-10">
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="https://live.atl5d.com" className="flex items-center gap-2">
             <Icons.flask className="h-4 w-4 text-violet-500 dark:text-violet-400" />
             <span className="text-violet-500 font-bold dark:text-violet-400">
-              Cast
+             👁️ LIVE
             </span>
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
             <Link
-              href="https://github.com/livekit-examples/livestream"
+              href="https://discord.gg/7xgc3A8Nyp"
               target="_blank"
               rel="noreferrer"
             >
@@ -29,12 +29,12 @@ export function NavBar() {
                   className: "text-zinc-700 dark:text-zinc-400",
                 })}
               >
-                <Icons.gitHub className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
+                <Icons.discord className="h-5 w-5" />
+                <span className="sr-only">Discord</span>
               </div>
             </Link>
             <Link
-              href="https://twitter.com/livekitted"
+              href="https://twitter.com/atl5d"
               target="_blank"
               rel="noreferrer"
             >

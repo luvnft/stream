@@ -13,33 +13,32 @@ export default function IndexPage() {
         <div className="flex items-center gap-2">
           <Icons.livekit className="h-12 text-foreground" />
           <h1 className="text-[48pt] leading-tight tracking-tighter text-violet-400">
-            Cast
+          👁️ LIVE
           </h1>
         </div>
         <div className="flex flex-col gap-6 text-foreground">
           <p className="text-2xl">
-            Open source livestreaming app built on{" "}
+            ATL5D.shop live streaming shopping app built by{" "}
             <a
-              href="https://github.com/livekit/components-js?ref=cast"
+              href="https://atl5d.com"
               className="text-violet-500 dark:text-violet-400"
             >
-              LiveKit Components
+              ATL5D.com
             </a>
-            ,{" "}
+            for{" "}
             <a
-              href="https://livekit.io/cloud?ref=cast"
+              href="https://atl5d.shop"
               className="text-violet-500 dark:text-violet-400"
             >
-              LiveKit Cloud
+              ATL5D.shop
             </a>{" "}
-            and Next.js 14 (including Server Actions).
+            Subscribe and go live!
           </p>
           <p>To get started, enter a channel ID below and select an option:</p>
           <GetStartedForm />
           <p>
-            Want to deploy this sample app yourself? Our friends at Vercel make
-            it super easy:
-            <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flivekit-examples%2Flivestream&env=LIVEKIT_API_KEY,LIVEKIT_API_SECRET,LIVEKIT_API_URL,NEXT_PUBLIC_LIVEKIT_WS_URL&envDescription=Sign%20up%20for%20an%20account%20at%20https%3A%2F%2Fcloud.livekit.io%20and%20create%20an%20API%20key%20in%20the%20Project%20Settings%20UI">
+            Want to sell merch live? Subscribe with a 30 day free trial.
+            <a href="https://atl5d.shop/product/midtown-vendor/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="mt-4"
