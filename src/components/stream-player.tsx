@@ -1,21 +1,21 @@
+import React, { useCallback, useRef, useState } from "react";
 import {
   StartAudio,
   useConnectionState,
   useRemoteParticipant,
   useTracks,
 } from "@livekit/components-react";
-import { ConnectionState, Track, type Participant } from "livekit-client";
-import React, { useCallback, useRef, useState } from "react";
+import { ConnectionState, Track, Participant } from "livekit-client";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "./ui/tooltip";
+import { Icons } from "@/components/ui/icons";
+// Removed unused import for Link from "next/link";
 
-import Link from "next/link";
-import { Icons } from "./ui/icons";
-
+// Function to convert connection states to readable strings
 function toString(connectionState: string) {
   switch (connectionState) {
     case "connected":
@@ -31,10 +31,12 @@ function toString(connectionState: string) {
   }
 }
 
+// Props interface for StreamPlayerWrapper component
 interface Props {
   streamerIdentity: string;
 }
 
+// Wrapper component to manage connection state and render StreamPlayer
 export default function StreamPlayerWrapper({ streamerIdentity }: Props) {
   const connectionState = useConnectionState();
   const participant = useRemoteParticipant(streamerIdentity);
@@ -42,6 +44,7 @@ export default function StreamPlayerWrapper({ streamerIdentity }: Props) {
     (track) => track.participant.identity === streamerIdentity
   );
 
+  // Render different states based on connection and track availability
   if (connectionState !== ConnectionState.Connected || !participant) {
     return (
       <div className="grid aspect-video items-center justify-center bg-black text-sm uppercase text-white">
@@ -64,9 +67,11 @@ export default function StreamPlayerWrapper({ streamerIdentity }: Props) {
     );
   }
 
+  // Render StreamPlayer component if all conditions are met
   return <StreamPlayer participant={participant} />;
 }
 
+// StreamPlayer component to manage video playback and controls
 export const StreamPlayer = ({ participant }: { participant: Participant }) => {
   const [muted, setMuted] = useState(false);
   const [volume, setVolume] = useState(50);
@@ -74,6 +79,7 @@ export const StreamPlayer = ({ participant }: { participant: Participant }) => {
   const videoEl = useRef<HTMLVideoElement>(null);
   const playerEl = useRef<HTMLDivElement>(null);
 
+  // Attach tracks to video element on component mount
   useTracks(Object.values(Track.Source))
     .filter((track) => track.participant.identity === participant.identity)
     .forEach((track) => {
@@ -82,6 +88,7 @@ export const StreamPlayer = ({ participant }: { participant: Participant }) => {
       }
     });
 
+  // Callback to handle volume change
   const onVolumeChange = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
       setMuted(e.target.value === "0");
@@ -94,6 +101,7 @@ export const StreamPlayer = ({ participant }: { participant: Participant }) => {
     []
   );
 
+  // Callback to toggle mute state
   const onToggleMute = useCallback(() => {
     setMuted(!muted);
     setVolume(muted ? 50 : 0);
@@ -103,6 +111,7 @@ export const StreamPlayer = ({ participant }: { participant: Participant }) => {
     }
   }, [muted]);
 
+  // Callback to toggle fullscreen mode
   const onFullScreen = useCallback(() => {
     if (isFullScreen) {
       document.exitFullscreen().catch((err) => console.error(err));
@@ -113,6 +122,7 @@ export const StreamPlayer = ({ participant }: { participant: Participant }) => {
     }
   }, [isFullScreen]);
 
+  // Render video player with controls and tooltips
   return (
     <TooltipProvider delayDuration={300}>
       <div className="relative flex aspect-video bg-black" ref={playerEl}>
@@ -154,9 +164,6 @@ export const StreamPlayer = ({ participant }: { participant: Participant }) => {
                   {isFullScreen ? "Exit fullscreen" : "Enter fullscreen"}
                 </TooltipContent>
               </Tooltip>
-              <Link href="https://livekit.io/" target="_blank" rel="noreferrer">
-                <Icons.livekit className="w-16 text-white hover:text-rose-400 hover:transition-all" />
-              </Link>
             </div>
           </div>
         </div>
@@ -168,3 +175,4 @@ export const StreamPlayer = ({ participant }: { participant: Participant }) => {
     </TooltipProvider>
   );
 };
+

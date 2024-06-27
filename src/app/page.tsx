@@ -1,5 +1,4 @@
 import GetStartedForm from "@/components/get-started";
-import { Icons } from "@/components/ui/icons";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
