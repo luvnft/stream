@@ -1,7 +1,7 @@
 import { ModeToggle } from "@/components/theme-toggle";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
-import { Icons, DiscordIcon } from '../components/ui/icons'; // Correct import
+import { Icons, Discord } from '../components/ui/icons'; // Correct import
 
 export function NavBar() {
   return (
@@ -31,7 +31,7 @@ export function NavBar() {
                   className: "text-zinc-700 dark:text-zinc-400",
                 })}
               >
-                <DiscordIcon className="h-5 w-5" /> {/* Use DiscordIcon directly */}
+                <Discord className="h-5 w-5" /> {/* Use DiscordIcon directly */}
                 <span className="sr-only">Discord</span>
               </div>
             </Link>

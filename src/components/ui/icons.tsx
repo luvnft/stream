@@ -7,7 +7,7 @@ import {
   Minimize,
   Moon,
   Send,
-  Discord as DiscordIcon, // Rename Discord to DiscordIcon to avoid naming conflicts
+  Discord, // Rename Discord to DiscordIcon to avoid naming conflicts
   Eye,
   SunMedium,
   Twitter,
@@ -29,7 +29,7 @@ export const Icons = {
   moon: Moon,
   laptop: Laptop,
   twitter: Twitter,
-  discord: DiscordIcon, // Use DiscordIcon here
+  discord: Discord, // Use DiscordIcon here
   check: Check,
   user: User,
   send: Send,
