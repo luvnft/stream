@@ -1,13 +1,12 @@
 import {
   ArrowRight,
   Check,
-  FlaskConical,
   Laptop,
   Maximize,
   Minimize,
   Moon,
   Send,
-  Discord,
+  Discord as DiscordIcon, // Rename the local declaration
   Eye,
   SunMedium,
   Twitter,
@@ -22,22 +21,13 @@ import {
 
 export type Icon = LucideIcon;
 
-const Discord = (props: LucideProps) => (
-  <svg viewBox="0 0 98 98" {...props}>
-    <path
-      d="M75.5 22.8c-1.1-2.4-2.9-4.3-5.1-5.7-2.2-1.4-4.8-2.1-7.6-2.1s-5.4.7-7.6 2.1c-2.2 1.4-4 3.3-5.1 5.7-.5.9-.8 1.9-.8 3v43.2c0 2.1.5 4.1 1.5 5.8.9 1.7 2.2 3.1 3.8 4.1s3.3 1.8 5 2.4c1.7.6 3.6 1 5.6 1 2 0 3.9-.4 5.6-1 1.7-.6 3.3-1.5 4.8-2.4s2.9-2.4 3.8-4.1c1-1.7 1.5-3.7 1.5-5.8V25.8c0-1.1-.3-2.1-.8-3zM49 16.4c-3.3 0-6 2.7-6 6v43.2c0 3.3 2.7 6 6 6s6-2.7 6-6V22.4c0-3.3-2.7-6-6-6z"
-    />
-  </svg>
-);
-
 export const Icons = {
   arrowRight: ArrowRight,
-  flask: FlaskConical,
   sun: SunMedium,
   moon: Moon,
   laptop: Laptop,
   twitter: Twitter,
-  discord: Discord,
+  discord: DiscordIcon, // Use the renamed local declaration
   check: Check,
   user: User,
   send: Send,
