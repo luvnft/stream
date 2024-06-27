@@ -6,8 +6,7 @@ import {
   Maximize,
   Minimize,
   Moon,
-  Send,
-  Discord, // Rename Discord to DiscordIcon to avoid naming conflicts
+  Send,// Rename Discord to DiscordIcon to avoid naming conflicts
   Eye,
   SunMedium,
   Twitter,
@@ -28,8 +27,7 @@ export const Icons = {
   sun: SunMedium,
   moon: Moon,
   laptop: Laptop,
-  twitter: Twitter,
-  discord: Discord, // Use DiscordIcon here
+  twitter: Twitter,// Use DiscordIcon here
   check: Check,
   user: User,
   send: Send,
@@ -46,5 +44,3 @@ export const Icons = {
     </svg>
   ),
 };
-
-export { DiscordIcon }; // Export DiscordIcon for external use
