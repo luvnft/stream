@@ -21,7 +21,7 @@ export default function IndexPage() {
               href="https://atl5d.shop"
               className="text-violet-500 dark:text-violet-400"
             >
-              ATL5D.shop
+              ATL5D.shop.
             </a>
              {" "}
             Subscribe and go live!
