@@ -1,12 +1,13 @@
 import {
   ArrowRight,
   Check,
+  FlaskConical,
   Laptop,
   Maximize,
   Minimize,
   Moon,
   Send,
-  Discord as DiscordIcon, // Rename the local declaration
+  Discord as DiscordIcon, // Rename Discord to DiscordIcon to avoid naming conflicts
   Eye,
   SunMedium,
   Twitter,
@@ -23,11 +24,12 @@ export type Icon = LucideIcon;
 
 export const Icons = {
   arrowRight: ArrowRight,
+  flask: FlaskConical,
   sun: SunMedium,
   moon: Moon,
   laptop: Laptop,
   twitter: Twitter,
-  discord: DiscordIcon, // Use the renamed local declaration
+  discord: DiscordIcon, // Use DiscordIcon here
   check: Check,
   user: User,
   send: Send,
@@ -44,3 +46,5 @@ export const Icons = {
     </svg>
   ),
 };
+
+export { DiscordIcon }; // Export DiscordIcon for external use
