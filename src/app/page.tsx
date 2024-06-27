@@ -18,14 +18,14 @@ export default function IndexPage() {
         </div>
         <div className="flex flex-col gap-6 text-foreground">
           <p className="text-2xl">
-            ATL5D.shop live streaming shopping app built by{" "}
+            Atlanta live streaming shopping app built by{" "}
             <a
               href="https://atl5d.com"
               className="text-violet-500 dark:text-violet-400"
             >
               ATL5D.com
             </a>
-            for{" "}
+             for{" "}
             <a
               href="https://atl5d.shop"
               className="text-violet-500 dark:text-violet-400"
@@ -42,8 +42,8 @@ export default function IndexPage() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="mt-4"
-                alt="deploy with vercel"
-                src="https://vercel.com/button"
+                alt="subscribe to ATL5D.shop"
+                src="https://i.imgur.com/ETFf0Cj.png"
               />
             </a>
           </p>
