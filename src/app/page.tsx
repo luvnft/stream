@@ -18,32 +18,26 @@ export default function IndexPage() {
         </div>
         <div className="flex flex-col gap-6 text-foreground">
           <p className="text-2xl">
-            Atlanta live streaming shopping app built by{" "}
-            <a
-              href="https://atl5d.com"
-              className="text-violet-500 dark:text-violet-400"
-            >
-              ATL5D.com
-            </a>
-             for{" "}
+            Atlanta live streaming shopping app built for {" "}
             <a
               href="https://atl5d.shop"
               className="text-violet-500 dark:text-violet-400"
             >
               ATL5D.shop
-            </a>{" "}
+            </a>
+             {" "}
             Subscribe and go live!
           </p>
           <p>To get started, enter a channel ID below and select an option:</p>
           <GetStartedForm />
           <p>
-            Want to sell merch live? Subscribe with a 30 day free trial.
+             Sell merch live today with $0 commission fees and zero algorithms! Subscribe with a 30-day free trial.
             <a href="https://atl5d.shop/product/midtown-vendor/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 className="mt-4"
                 alt="subscribe to ATL5D.shop"
-                src="https://i.imgur.com/ETFf0Cj.png"
+                src="https://i.imgur.com/z2NXtco.png"
               />
             </a>
           </p>
