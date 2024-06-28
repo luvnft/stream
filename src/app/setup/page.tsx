@@ -39,7 +39,7 @@ export default function SetupPage({ searchParams: { channel } }: PageProps) {
           width={1200}
           height={600}
           alt="OBS Studio settings window"
-          src="https://atl5d.shop/wp-content/uploads/2024/06/LIVE-atl5d.shop_.png"
+          src="https://i.imgur.com/M08r1rd.png"
         />
         <p>
           When you&rsquo;re done with setting up your stream and ready to
