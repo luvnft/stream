@@ -39,7 +39,7 @@ export default function SetupPage({ searchParams: { channel } }: PageProps) {
           width={1200}
           height={600}
           alt="OBS Studio settings window"
-          src="https://i.imgur.com/M08r1rd.png"
+          src="https://user-images.githubusercontent.com/304392/225103865-c0c3accb-600f-411d-814e-8f6384784b62.png"
         />
         <p>
           When you&rsquo;re done with setting up your stream and ready to

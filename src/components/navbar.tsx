@@ -10,8 +10,8 @@ export function NavBar() {
         <div className="flex gap-6 md:gap-10">
           <Link href="https://live.atl5d.com" passHref>
             <a className="flex items-center gap-2">
-              <Icons.eye className="h-4 w-4 text-violet-500 dark:text-violet-400" />
-              <span className="text-violet-500 font-bold dark:text-violet-400">
+              <Icons.eye className="h-4 w-4 text-black dark:text-black" />
+              <span className="text-black font-bold dark:text-black">...</span>
                 LIVE
               </span>
             </a>
