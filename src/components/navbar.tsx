@@ -11,9 +11,7 @@ export function NavBar() {
           <Link href="https://live.atl5d.com" passHref>
             <a className="flex items-center gap-2">
               <Icons.eye className="h-4 w-4 text-black dark:text-black" />
-              <span className="text-black font-bold dark:text-black">...</span>
-                LIVE
-              </span>
+              <span className="text-black font-bold dark:text-black">LIVE</span>
             </a>
           </Link>
         </div>
@@ -42,3 +40,4 @@ export function NavBar() {
     </header>
   );
 }
+
