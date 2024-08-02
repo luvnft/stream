@@ -15,14 +15,16 @@ export default function IndexPage() {
           </h1>
         </div>
         <div className="flex flex-col gap-6 text-foreground">
+        <p className="text-2xl">
+           Live streaming social shopping app with a chat for Q&A. Subscribe and go live!
+        </p>
+          <p>To get started, enter a channel ID below and select an option:</p>
+          <GetStartedForm />
+          <p>
+            Sell merch live today with $0 commission fees and zero algorithms! Subscribe with a 30-day free trial.
+          </p>
           <p className="text-2xl">
-            Atlanta live streaming shopping app built for {" "}
-            <a
-              href="https://atl5d.shop"
-              className="text-violet-500 dark:text-violet-400"
-            >
-              ATL5D.shop.
-            </a>
+            Live streaming social shopping app with a chat for Q&A.
              {" "}
             Subscribe and go live!
           </p>
