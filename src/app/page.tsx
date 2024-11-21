@@ -11,19 +11,24 @@ export default function IndexPage() {
       <div className="mx-auto flex w-full flex-col items-start gap-4">
         <div className="flex items-center gap-2">
           <h1 className="text-[48pt] leading-tight tracking-tighter text-black dark:text-black">
-            👁️ LIVE
+           📺✨ HAHZ.live TV
           </h1>
         </div>
         <div className="flex flex-col gap-6 text-foreground">
           <p className="text-2xl">
-            Hahz.live Web5 streaming app with a chat for Q&A. Earn crypto for tapping in to live events!
+            Hahz.live Web5 spiritual streaming TV app with a chat for Q&A. Earn crypto for tapping in to live events!
           </p>
           <p>To get started, enter a channel ID below and select an option:</p>
           <GetStartedForm />
           <p>
-            Follow @WizardofHahz
-            <a href="https://tiktok.com/@wizardofhahz">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
+            Follow{" "}
+            <a
+              href="https://tiktok.com/@wizardofhahz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-black"
+            >
+              @WizardofHahz
             </a>
           </p>
         </div>
