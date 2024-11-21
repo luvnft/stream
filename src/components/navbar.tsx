@@ -8,17 +8,17 @@ export function NavBar() {
     <header className="sticky top-0 z-40 w-full border-b bg-background px-4">
       <div className="mx-auto flex h-12 items-center space-x-4 sm:justify-between sm:space-x-0">
         <div className="flex gap-6 md:gap-10">
-          <Link href="https://live.atl5d.com" passHref>
+          <Link href="https://tv.hahz.live" passHref>
             <a className="flex items-center gap-2">
               <Icons.eye className="h-4 w-4 text-black dark:text-black" />
-              <span className="text-black font-bold dark:text-black">LIVE</span>
+              <span className="text-black font-bold dark:text-black">HAHZ.live TV</span>
             </a>
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
             <Link
-              href="https://twitter.com/atl5d"
+              href="https://twitter.com/wizardofhahz"
               target="_blank"
               rel="noreferrer"
             >

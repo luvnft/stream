@@ -2,7 +2,7 @@ import GetStartedForm from "@/components/get-started";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ATL5D.shop Live",
+  title: "Hahz.live streaming app",
 };
 
 export default function IndexPage() {
@@ -16,19 +16,14 @@ export default function IndexPage() {
         </div>
         <div className="flex flex-col gap-6 text-foreground">
           <p className="text-2xl">
-            Live streaming social shopping app with a chat for Q&A. Subscribe below and go live!
+            Hahz.live Web5 streaming app with a chat for Q&A. Earn crypto for tapping in to live events!
           </p>
           <p>To get started, enter a channel ID below and select an option:</p>
           <GetStartedForm />
           <p>
-            Sell merch live today with $0 commission fees and zero algorithms! Subscribe with a 30-day free trial.
-            <a href="https://atl5d.shop/product/midtown-vendor/">
+            Follow @WizardofHahz
+            <a href="https://tiktok.com/@wizardofhahz">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                className="mt-4"
-                alt="subscribe to ATL5D.shop"
-                src="https://i.imgur.com/z2NXtco.png"
-              />
             </a>
           </p>
         </div>

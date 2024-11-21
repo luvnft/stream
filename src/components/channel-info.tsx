@@ -34,7 +34,7 @@ export default function ChannelInfo({
 
             {participant && (
               <div className="absolute z-30 mt-14 w-12 rounded-xl border-2 border-white bg-red-600 p-1 text-center text-xs font-bold uppercase text-white transition-all dark:border-zinc-900">
-                Live
+                HAHZ.live TV
               </div>
             )}
           </div>
@@ -45,10 +45,10 @@ export default function ChannelInfo({
                 <Icons.check className="h-3 w-3 text-white dark:text-zinc-900" />
               </div>
             </div>
-            <h2 className="text-sm font-medium">Testing out ATL5D Ingress</h2>
+            <h2 className="text-sm font-medium">Testing out HAHZ Ingress</h2>
             <div className="-ml-0.5 flex gap-1 pt-1.5 text-xs font-medium">
               <div className="rounded-lg bg-zinc-200 px-2 py-0.5 dark:bg-zinc-800">
-                #atl5d
+                #wizardofhahz
               </div>
               <div className="rounded-lg bg-zinc-200 px-2 py-0.5 dark:bg-zinc-800">
                 #ingress
