@@ -37,7 +37,7 @@ export default function HomeForm() {
       <Input
         className="w-[200px]"
         type="text"
-        placeholder="example-stream"
+        placeholder="hahz-stream"
         onChange={(e) => {
           setSlug(e.target.value);
         }}
