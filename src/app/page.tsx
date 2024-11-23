@@ -16,7 +16,9 @@ export default function IndexPage() {
         </div>
         <div className="flex flex-col gap-6 text-foreground">
           <p className="text-2xl">
-            Hahz.live Web5 spiritual streaming TV app with a chat for Q&A. Earn crypto for tapping in to live events!
+            Hahz.live Web5 spiritual streaming TV
+            app with a chat for Q&A. Earn crypto
+            for tapping in to live events!
           </p>
           <p>To get started, enter a channel ID below and select an option:</p>
           <GetStartedForm />
