@@ -1,4 +1,4 @@
-]import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -13,22 +13,17 @@ export default function Home() {
             className="invert dark:invert-0 mt-8 mb-2"
           />
           <Text as="p">
-            Hahz.live Web5 spiritual streaming TV app with a chat for Q&A.
-            Learn about Hahz solutions {" "}
+            Hahz.live Web5 spiritual streaming TV app with a chat for Q&A. Learn about Hahz solutions{" "}
             <Link href="https://hahz.live" target="_blank">
               HAHZ.live
-            </Link>
-            {" "}
-            <Kbd>⌘&thinsp;C</Kbd> !
+            </Link>{" "}
+            <Kbd>⌘&thinsp;C</Kbd>!
           </Text>
           <HomeActions />
           <Separator orientation="horizontal" size="4" className="my-2" />
           <Text as="p" size="2">
             Follow the Wizard of Hahz on{" "}
-            <Link
-              href="https://tiktok.com/@wizardofhahz"
-              target="_blank"
-            >
+            <Link href="https://tiktok.com/@wizardofhahz" target="_blank">
               TikTok
             </Link>
             .
