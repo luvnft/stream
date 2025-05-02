@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Theme
-          appearance="white"
+          appearance="dark"
           accentColor="orange"
           grayColor="mauve"
           radius="none"
