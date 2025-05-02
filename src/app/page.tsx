@@ -19,7 +19,7 @@ export default function Home() {
             <Link href="https://jersey.fm" target="_blank">
               JERSEY.FM
             </Link>
-            events.
+             events.
           </Text>
           <HomeActions />
           <Separator orientation="horizontal" size="4" className="my-2" />
