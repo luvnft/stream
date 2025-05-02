@@ -7,8 +7,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Livestream with LiveKit",
-  description: "A sample full-stack application built with LiveKit",
+  title: "JERSEY.FM ORANGE",
+  description: "A Jersey Club Livestream",
 };
 
 export default function RootLayout({
@@ -20,8 +20,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Theme
-          appearance="dark"
-          accentColor="purple"
+          appearance="white"
+          accentColor="orange"
           grayColor="mauve"
           radius="none"
         >
