@@ -15,16 +15,16 @@ export default function Home() {
             className="invert dark:invert-0 mt-8 mb-2"
           />
           <Text as="p">
-            The Livestream Club House for {" "}
-            <Link href="https://jersey.fm" target="_blank">
-              JERSEY.FM
-            </Link>
-             events.
-          </Text>
+          The Livestream Club House for{" "}
+           <Link href="https://jersey.fm" target="_blank">
+           JERSEY.FM
+          </Link>
+          {" "}events.
+           </Text>
           <HomeActions />
           <Separator orientation="horizontal" size="4" className="my-2" />
           <Text as="p" size="2">
-            Join our Jersey Club metaverse{" "}
+            Join our Jersey Club Metaverse{" "}
             <Link
               href="https://www.spatial.io/s/jerseyclubs-Digital-Hangout-6812bd5f5e2a67a19304853d"
               target="_blank"
