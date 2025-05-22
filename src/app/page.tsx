@@ -15,7 +15,7 @@ export default function Home() {
             className="invert dark:invert-0 mt-8 mb-2"
           />
           <Text as="p" className="text-center">
-            � ORANGE is Bitcoin's hottest livestream - where crypto meets clout. <br />
+            🧡 ORANGE is Bitcoin's hottest livestream - where crypto meets clout. <br />
             Earn L$VE (likes), stack $RNT (rewards), and flex HAI$ (tips) 💸 <br />
             Powered by <Link href="https://luvnft.com" target="_blank" className="font-bold">LUV NFT</Link> - your digital 💘
           </Text>
