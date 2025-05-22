@@ -14,37 +14,23 @@ export default function Home() {
             height="120"
             className="invert dark:invert-0 mt-8 mb-2"
           />
-          <Text as="p">
-          The Livestream Club House for{" "}
-           <Link href="https://jersey.fm" target="_blank">
-           JERSEY.FM
-          </Link>
-            {" "} &
-           <Link href="https://twerk.dance" target="_blank">
-           TWERK.DANCE
-          </Link>
-          {" "}
-          {" "} events.
-           </Text>
+          <Text as="p" className="text-center">
+            � ORANGE is Bitcoin's hottest livestream - where crypto meets clout. <br />
+            Earn L$VE (likes), stack $RNT (rewards), and flex HAI$ (tips) 💸 <br />
+            Powered by <Link href="https://luvnft.com" target="_blank" className="font-bold">LUV NFT</Link> - your digital 💘
+          </Text>
           <HomeActions />
           <Separator orientation="horizontal" size="4" className="my-2" />
           <Text as="p" size="2">
-            Join our Jersey Club Metaverse{" "}
+            Clout chasing? Boost your ORANGE stream on {" "}
             <Link
-              href="https://www.spatial.io/s/jerseyclubs-Digital-Hangout-6812bd5f5e2a67a19304853d"
+              href="https://irl.travel"
               target="_blank"
+              className="underline font-semibold"
             >
-              here
-            </Link>
-            .
-            {/* And also be sure to follow us on TikTok{" "}
-            <Link
-              href="https://tiktok.com/@jerseyclubtv"
-              target="_blank"
-            >
-              IG
+              IRL.TRAVEL
             </Link>{" "}
-            and <Link href="https://instagram.com/jerseyclubfm" target="_blank">Instagram</Link>*/}
+            and get that bag 🚀
           </Text>
         </Flex>
       </Container>
