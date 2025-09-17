@@ -15,22 +15,21 @@ export default function Home() {
             className="invert dark:invert-0 mt-8 mb-2"
           />
           <Text as="p" className="text-center">
-            🧡 ORANGE is Bitcoin's hottest livestream - where crypto meets clout. <br />
-            Earn L$VE (likes), stack $RNT (rewards), and flex HAI$ (tips) 💸 <br />
-            Made with <Link href="https://luvnft.com" target="_blank" className="font-bold">LUV NFT</Link> - your digital 💘
+            🧡 ORANGE Web5 livestream <br />
+            Earn 💸 crypto for for attending a participating during live events.<br />
           </Text>
           <HomeActions />
           <Separator orientation="horizontal" size="4" className="my-2" />
           <Text as="p" size="2">
-            Clout chasing? Boost your ORANGE stream on {" "}
+            Built with ❤️ {" "}
             <Link
-              href="https://irl.travel"
+              href="https://hahz.live"
               target="_blank"
               className="underline font-semibold"
             >
-              IRL.TRAVEL
+              Wizard of HAHZ
             </Link>{" "}
-            and get that bag 🚀
+            Learn your financial freedom today 🚀
           </Text>
         </Flex>
       </Container>
