@@ -15,7 +15,7 @@ export default function Home() {
             className="invert dark:invert-0 mt-8 mb-2"
           />
           <Text as="p" className="text-center">
-            🧡 ORANGE Web5 livestream <br />
+            🧡 ORANGE PPV livestream <br />
             Earn 💸 crypto for for attending a participating during live events.<br />
           </Text>
           <HomeActions />
