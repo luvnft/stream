@@ -15,21 +15,20 @@ export default function Home() {
             className="invert dark:invert-0 mt-8 mb-2"
           />
           <Text as="p" className="text-center">
-            🧡 ORANGE PPV livestream <br />
-            Earn 💸 crypto for for attending a participating during live events.<br />
+            🟠 ORANGE. -the live stage of hahz.live. Spiritual entertainment, PPV livestreams,<br />
+            and tribe-powered tokenized moments where you earn to learn spiritual wealth. <br />
           </Text>
           <HomeActions />
           <Separator orientation="horizontal" size="4" className="my-2" />
           <Text as="p" size="2">
-            Built with ❤️ {" "}
+            Built with 🧡 {" "}
             <Link
               href="https://hahz.live"
               target="_blank"
               className="underline font-semibold"
             >
-              Wizard of HAHZ
+              by the Wizard of HAHZ
             </Link>{" "}
-            Learn your financial freedom today 🚀
           </Text>
         </Flex>
       </Container>
